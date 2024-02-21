@@ -1,0 +1,30 @@
+.slider {
+  width: 50%;
+  margin: 90 auto;
+}
+
+/* .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+} */
+
+.arrow.next {
+  right: 20px;
+}
+
+.arrow.prev {
+  left: 20px;
+}
+.s-container > img {
+  width: 100%;
+}
+
+.s-container {
+  height: 20px;
+}

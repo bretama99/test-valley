@@ -1,0 +1,63 @@
+.App {
+  position: relative;
+  overflow-x: clip;
+}
+
+.App > :nth-child(1) {
+  background: var(--black);
+  position: relative;
+}
+
+.white-gradient {
+  position: absolute;
+  width: 30rem;
+  height: 20rem;
+  background: rgba(255, 255, 255, 0.522);
+  filter: blur(100px);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 1rem auto 4rem;
+}
+
+.product--image {
+  width: 100%;
+  height: 7em;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  max-width: 320px;
+  margin: auto 1rem;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}

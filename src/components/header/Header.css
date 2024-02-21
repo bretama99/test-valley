@@ -1,0 +1,50 @@
+.h-wrapper {
+  background: white;
+  color: white;
+}
+
+.h-container {
+  /* justify-content: space-between; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  background-color: white;
+}
+
+.h-menu {
+  gap: 0.9rem;
+  padding-left: 80px;
+  padding-right: 180px;
+}
+.h-menu-im {
+  padding-left: 220px;
+}
+.h-menu > *:hover {
+  cursor: pointer;
+}
+
+.classLogo {
+  cursor: pointer;
+  display: block;
+  /* margin-left: 120px; */
+  padding: 0px;
+  /* width: 125.71px; */
+}
+
+img {
+  border-style: none;
+}
+
+* {
+  margin: 0px;
+  font-family: Pretendard, serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  outline: none;
+  color: rgb(51, 51, 51);
+}
+
+image {
+  /* margin-left: -350px; */
+  margin-right: 1120px;
+}
